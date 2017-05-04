@@ -4,7 +4,7 @@ SPSS is a simple and easy to use script which helps to create single page websit
 It is not finished project. I just wanted to have backup here :)
 
 # Demo:
--
+https://mattyx22.github.io/Single-Page-Smooth-Scroll/
 
 # Usage:
 After download you get everything which is needed to use (template too).
