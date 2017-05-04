@@ -3,10 +3,10 @@ SPSS is a simple and easy to use script which helps to create single page websit
 
 It is not finished project. I just wanted to have backup here :)
 
-Demo:
+# Demo:
 -
 
-Usage:
+# Usage:
 After download you get everything which is needed to use (template too).
 But if you want to know hot to create slides on single page you just have to create something like this:
 ```
