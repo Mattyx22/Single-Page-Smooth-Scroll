@@ -20,3 +20,5 @@ But if you want to know hot to create slides on single page you just have to cre
 ```
 
 
+It is using underscore.js for throttling the mouse wheel event.
+http://underscorejs.org/
