@@ -1,6 +1,5 @@
 // Loader of the page 
 $(window).on('load', function() {
-	console.log('Strona zaladowana');
 	$('#loading_icon').fadeOut();
 	$('#preloader').delay(500).fadeOut('slow');
 	$('main, #slide_1').delay(350).show('slow');
@@ -35,14 +34,14 @@ $(document).on('wheel', _.throttle(function(event){
 			scrollTop: $(previousPage).offset().top
 		}, 500);
 		
-		page = page - 1;
+		page -= 1;
 	}
 	else if (event.originalEvent.deltaY > 0 && page != howManyPages){
 		$('html, body').animate({
 			scrollTop: $(nextPage).offset().top
 		}, 500);
 		
-		page = page + 1;
+		page += 1;
 	}
 	
 }, 1000));
